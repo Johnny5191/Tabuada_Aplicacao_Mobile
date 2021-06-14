@@ -4,10 +4,10 @@ function tabuada(){
   var tabuada='';
   for(var count=1; count<=num ; count++)
    tabuada += num+" x "+count+" = "+
-               num*count+"<br />";
-  resposta.innerHTML = tabuada;
+               num*count+"\r\n";
+   navigator.notification.alert(tabuada);
   
 
 }
-alert(tabuada())
+
 
